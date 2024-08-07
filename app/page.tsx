@@ -1,7 +1,8 @@
-import Image from "next/image";
+import { Button } from "./_components/ui/button"
 
-export default function Home() {
-  return (
-    <h1 className="text-red-300 pt-2 bg">Home page</h1>
-  );
+const Home = () =>{
+    return <Button>Button</Button>
+
 }
+
+export default Home
